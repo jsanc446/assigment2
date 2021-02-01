@@ -79,6 +79,7 @@ class Assignment2:
             s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             s.connect((host,port))            
             print("Connection established correctly")
+            return true
         except:
             print("Some error")
         

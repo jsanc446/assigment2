@@ -1,7 +1,7 @@
 #Juan Sanchez Assignment2
 
 class Assignment2:
-    def _init_(self,age=int):
+    def __init__(self,age=int):
         
     def sayWelcome(self,name):
         self.name=name

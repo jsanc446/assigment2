@@ -10,22 +10,23 @@ class Assignment2:
         
     def doubleList(self, theList):
         list=theList
+        print("[",end ='')
         for x in list:
            
             x=x * 2
-            print(x, end=', ')
+            print(f"'{x}", end=', ')
         count = 1
         for each in list:
             if count % 2 != 0:
-                print(each, end=', ')
-                count+=1
+                 print(f"'{each}", end=', ')
+                 count+=1
             else:
                 count+=1
         count = 1
         for each in list:
             if count % 2 == 0:
-                print(each, end=', ')
-                count+=1
+               print(f"'{each}", end=', ')
+               count+=1
             else:
                 count+=1
     def modifyString (self,name):
@@ -82,5 +83,3 @@ class Assignment2:
         
 
 
-
-        

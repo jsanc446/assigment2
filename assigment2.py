@@ -1,7 +1,7 @@
 #Juan Sanchez Assignment2
 
 class Assignment2:
-    def __init__(self,age):
+    def Assignment2(self,age):
         self.age=age
         
     def sayWelcome(self,name):
@@ -77,11 +77,9 @@ class Assignment2:
         except:
             print("Some error")
         
-test = Assignment2(200)
-test.sayWelcome('Johnny')
-list_one= ['hello','and', 'good night','SAVAFEE']
-test.doubleList(list_one)
-test.modifyString('foobarBarfoo')
-tester=test.isGoodPassword('HOOOWWWWWW11')
-test.connectTcp('www.google.com',80)
-print(tester)
+
+
+
+
+
+        

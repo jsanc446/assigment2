@@ -17,14 +17,14 @@ class Assignment2:
         count = 1
         for each in list:
             if count % 2 != 0:
-                print(each)
+                print(x, end=', ')
                 count+=1
             else:
                 count+=1
         count = 1
         for each in list:
             if count % 2 == 0:
-                print(each)
+                print(x, end=', ')
                 count+=1
             else:
                 count+=1
@@ -34,20 +34,20 @@ class Assignment2:
         for x in theName:
             if count%3==0:
                 x = x.upper()
-                print(x)
+                print(x, end=', ')
                 count+=1
             else:
                 if count % 4==0 and ord(x) %3 != 0 :
                     x = x.lower()
-                    print(x)
+                    print(x, end=', ')
                     count+=1
                 else:
                         if count %5==0 and (ord(x) %3 != 0 or ord(x) %4 != 0):
                             x=" "
-                            print(x)
+                            print(x, end=', ')
                             count+=1
                         else:
-                            print(x)
+                            print(x, end=', ')
                             count+=1
     def isGoodPassword(self, str):
             if(len(str)<9):
@@ -76,6 +76,13 @@ class Assignment2:
             print("Connection established correctly")
         except:
             print("Some error")
+        
+
+
+
+
+
+        
         
 
 

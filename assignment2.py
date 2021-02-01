@@ -6,7 +6,7 @@ class Assignment2:
         
     def sayWelcome(self,name):
         self.name=name
-        print("Welcome to the assignment,",name,"! Haven't seen you for",self.age,"years!")
+        print("Welcome to the assignment,"+name+"! Haven't seen you for"+self.age+"years!")
         
     def doubleList(self, theList):
         list=theList

@@ -1,3 +1,5 @@
+#Juan Sanchez Assignment2
+
 class Assignment2:
     def __init__(self,age):
         self.age=age
@@ -15,14 +17,14 @@ class Assignment2:
         count = 1
         for each in list:
             if count % 2 != 0:
-                print(x, end=', ')
+                print(each, end=', ')
                 count+=1
             else:
                 count+=1
         count = 1
         for each in list:
             if count % 2 == 0:
-                print(x, end=', ')
+                print(each, end=', ')
                 count+=1
             else:
                 count+=1
@@ -78,8 +80,6 @@ class Assignment2:
         except:
             print("Some error")
         
-
-
 
 
 

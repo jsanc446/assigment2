@@ -14,7 +14,7 @@ class Assignment2:
         for x in list:
            
             x=x * 2
-            print(f"'{x}", end=', ')
+            print(f"'{x}", end="', ")
         count = 1
         for each in list:
             if count % 2 != 0:
@@ -29,6 +29,7 @@ class Assignment2:
                count+=1
             else:
                 count+=1
+        print("]",end ='')
     def modifyString (self,name):
         theName=name
         count = 1

@@ -6,7 +6,7 @@ class Assignment2:
         
     def sayWelcome(self,name):
         self.name=name
-        print('Welcome to the assignment',name ,'Havent seen you for',self.age,'years!')
+        print("Welcome to the assignment,",name,"! Haven't seen you for",self.age,"years!")
         
     def doubleList(self, theList):
         list=theList
@@ -28,7 +28,7 @@ class Assignment2:
                 count+=1
             else:
                 count+=1
-        return None
+        return count
     def modifyString (self,name):
         theName=name
         count = 1
@@ -52,7 +52,7 @@ class Assignment2:
                             print(x, end='')
                             count+=1
         print("'",end='')
-        return x
+        return None
     def isGoodPassword(self, str):
             if(len(str)<9):
                 return False
@@ -80,4 +80,10 @@ class Assignment2:
             print("Connection established correctly")
         except:
             print("Some error")
+        
+
+
+
+
+
         

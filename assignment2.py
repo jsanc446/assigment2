@@ -6,7 +6,7 @@ class Assignment2:
         
     def sayWelcome(self,name):
         self.name=name
-        print(f"Welcome to the assignment,",name,"! Haven't seen you for",self.age,"years!")
+        print(f"Welcome to the assignment,{name}! Haven't seen you for {self.age} years!")
         
     def doubleList(self, theList):
         list=theList
@@ -80,4 +80,10 @@ class Assignment2:
             print("Connection established correctly")
         except:
             print("Some error")
+        
+
+
+
+
+
         

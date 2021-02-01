@@ -13,7 +13,7 @@ class Assignment2:
         for x in list:
            
             x=[x * 2]
-            print(x)
+            print(x, end'')
         count = 1
         for each in list:
             if count % 2 != 0:

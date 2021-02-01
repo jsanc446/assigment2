@@ -34,20 +34,20 @@ class Assignment2:
         for x in theName:
             if count%3==0:
                 x = x.upper()
-                print(x, end=', ')
+                print(x, end='')
                 count+=1
             else:
                 if count % 4==0 and ord(x) %3 != 0 :
                     x = x.lower()
-                    print(x, end=', ')
+                    print(x, end='')
                     count+=1
                 else:
                         if count %5==0 and (ord(x) %3 != 0 or ord(x) %4 != 0):
                             x=" "
-                            print(x, end=', ')
+                            print(x, end='')
                             count+=1
                         else:
-                            print(x, end=', ')
+                            print(x, end='')
                             count+=1
     def isGoodPassword(self, str):
             if(len(str)<9):
@@ -77,6 +77,9 @@ class Assignment2:
         except:
             print("Some error")
         
+
+
+
 
 
 

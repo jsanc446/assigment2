@@ -12,7 +12,7 @@ class Assignment2:
         list=theList
         for x in list:
            
-            x=x * 2
+            x=[x * 2]
             print(x)
         count = 1
         for each in list:

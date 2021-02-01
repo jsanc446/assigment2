@@ -12,7 +12,7 @@ class Assignment2:
         list=theList
         for x in list:
            
-            x=[x * 2]
+            x=x * 2
             print(x, end=', ')
         count = 1
         for each in list:
@@ -80,10 +80,4 @@ class Assignment2:
             print("Connection established correctly")
         except:
             print("Some error")
-        
-
-
-
-
-
         

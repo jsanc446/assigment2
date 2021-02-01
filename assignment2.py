@@ -18,14 +18,14 @@ class Assignment2:
         count = 1
         for each in list:
             if count % 2 != 0:
-                 print(f"'{each}", end=', ')
+                 print(f"'{x}", end="', ")
                  count+=1
             else:
                 count+=1
         count = 1
         for each in list:
             if count % 2 == 0:
-               print(f"'{each}", end=', ')
+               print(f"'{x}", end="', ")
                count+=1
             else:
                 count+=1
@@ -84,3 +84,7 @@ class Assignment2:
         
 
 
+
+
+
+        

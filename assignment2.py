@@ -1,5 +1,3 @@
-#Juan Sanchez Assignment2
-
 class Assignment2:
     def __init__(self,age):
         self.age=age
@@ -28,7 +26,6 @@ class Assignment2:
                 count+=1
             else:
                 count+=1
-        return count
     def modifyString (self,name):
         theName=name
         count = 1
@@ -80,4 +77,10 @@ class Assignment2:
             print("Connection established correctly")
         except:
             print("Some error")
+        
+
+
+
+
+
         

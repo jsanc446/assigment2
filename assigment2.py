@@ -1,7 +1,7 @@
 #Juan Sanchez Assignment2
 
-class assignment2:
-    def assignment2(self,age):
+class Assignment2:
+    def Assignment2(self,age):
         self.age=age
         
     def sayWelcome(self,name):

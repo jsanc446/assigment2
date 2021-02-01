@@ -3,16 +3,16 @@
 class Assignment2:
     def __init__(self,age=int):
         
-    def sayWelcome(self,name):
-        self.name=name
-        print('Welcome to the assignment',name ,'Havent seen you for',self.age,'years!')
+        def sayWelcome(self,name):
+            self.name=name
+            print('Welcome to the assignment',name ,'Havent seen you for',self.age,'years!')
         
-    def doubleList(self, theList):
-        list=theList
-        for x in list:
+        def doubleList(self, theList):
+            list=theList
+            for x in list:
            
-            x=x * 2
-            print(x)
+                 x=x * 2
+                 print(x)
         count = 1
         for each in list:
             if count % 2 != 0:
@@ -75,10 +75,3 @@ class Assignment2:
             print("Connection established correctly")
         except:
             print("Some error")
-        
-
-
-
-
-
-        

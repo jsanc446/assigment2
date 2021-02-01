@@ -28,6 +28,7 @@ class Assignment2:
                 count+=1
             else:
                 count+=1
+        return None
     def modifyString (self,name):
         theName=name
         count = 1
@@ -51,6 +52,7 @@ class Assignment2:
                             print(x, end='')
                             count+=1
         print("'",end='')
+        return None
     def isGoodPassword(self, str):
             if(len(str)<9):
                 return False
@@ -79,6 +81,3 @@ class Assignment2:
         except:
             print("Some error")
         
-
-
-

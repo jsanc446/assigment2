@@ -52,7 +52,7 @@ class Assignment2:
                             print(x, end='')
                             count+=1
         print("'",end='')
-        return None
+        return x
     def isGoodPassword(self, str):
             if(len(str)<9):
                 return False

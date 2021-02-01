@@ -31,6 +31,7 @@ class Assignment2:
     def modifyString (self,name):
         theName=name
         count = 1
+        print("'",end='')
         for x in theName:
             if count%3==0:
                 x = x.upper()
@@ -49,6 +50,7 @@ class Assignment2:
                         else:
                             print(x, end='')
                             count+=1
+        print("'",end='')
     def isGoodPassword(self, str):
             if(len(str)<9):
                 return False
@@ -80,16 +82,3 @@ class Assignment2:
 
 
 
-
-
-
-
-
-        
-        
-
-
-
-
-
-        
